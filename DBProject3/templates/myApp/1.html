@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Customer</title>
+  </head>
+  <body>
+    <center>
+    <h1><u><strong>Customer Details </strong></u></h1>
+    {% for x in cust %}
+    <h2>Name : {{x.name}}</h2>
+    <h2>Age : {{x.age}}</h2>
+    <h2>Email : {{x.mailid}}</h2>
+    <h2>PhoneNumber : {{x.phoneNumber}}</h2>
+    <hr>
+    {% endfor %}
+
+  </body>
+</html>
